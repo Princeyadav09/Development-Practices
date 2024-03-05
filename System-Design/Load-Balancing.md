@@ -7,6 +7,7 @@ Network Load balancer (layer 4 transport layer):
 Layer 4 Load Balancer operates at the transport layer (Layer 4) of the OSI model. It makes decisions based on information such as the source and destination IP addresses, as well as the port numbers of incoming requests. The main focus of Layer 4 load balancers is to distribute network traffic efficiently across multiple servers.
 🔑 How it works:
 When a user sends a request to access a website or application, the Layer 4 Load Balancer receives the request. It then looks at the transport layer data (IP addresses and ports) to determine which server should handle the request. The load balancer uses various algorithms (e.g., round-robin, least connections) to decide the best server to forward the request to. This ensures that traffic is evenly spread among the servers, improving performance and avoiding overloading any single server.
+<br>
 Application Load Balancer (Load Balancer 7):
 Layer 7 Load Balancer operates at the application layer (Layer 7) of the OSI model. It can make more intelligent decisions based on application-specific data, such as HTTP headers, cookies, and URLs. Layer 7 Load Balancers understand application protocols, enabling them to optimize traffic distribution for specific applications or services.
 🔑 How it works:
@@ -18,3 +19,4 @@ Load balancing algorithm:
 4 Least Connection Algorithm
 5 Least Response time algorithm 
 
+<br>Reference:https://medium.com/@abhirup.acharya009/load-balancing-system-design-fundamentals-d64674227c36
