@@ -1,0 +1,1 @@
+https://gupta-chirantar.medium.com/understanding-the-n-1-query-problem-in-java-with-hibernate-6f251ce24caa#:~:text=The%20N%2B1%20query%20problem%20is%20a%20common%20performance%20issue,orders)%20from%20a%20relational%20database.
